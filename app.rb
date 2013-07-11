@@ -1,8 +1,9 @@
-require 'bundler'
-Bundler.require
-
 class IdeaBoxApp < Sinatra::Base
   get '/' do
-    "Hello, World!"
+  	erb :index
+  end
+
+  not_found do
+    erb :error
   end
 end
