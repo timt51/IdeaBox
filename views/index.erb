@@ -15,19 +15,21 @@
       <input type='submit'/>
     </form>
     <h3>Existing Ideas</h3>
-
-    <ul>
-      <% ideas.each_with_index do |idea, index| %>
-        <li>
-          <%= idea.title %><br/>
-          <%= idea.description %>
-          <form action='/<%= index %>' method='POST'>
-            <input type="hidden" name="_method" value="DELETE">
-            <input type='submit' value="delete"/>
-          </form>
-        </li>
-      <% end %>
-    </ul>
-
+      <div id = "list">
+        <ul>
+          <% ideas.each_with_index do |idea, index| %>
+            <li>
+              <%= idea.title %><br/>
+              <%= idea.description %>
+              <div id = "submit">
+                <form action='/<%= index %>' method='POST'>
+                  <input type="hidden" name="_method" value="DELETE">
+                  <input type='submit' value="delete"/>
+                </form>
+              </div>
+            </li>
+          <% end %>
+        </ul>
+      </div>
   </body>
 </html>

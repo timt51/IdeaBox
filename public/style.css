@@ -5,14 +5,26 @@ body {
 h1 {
     background: #BDD4DE;
     padding: 10px;
+    text-align: center;
 }
 
-form {
+h1 + form {
     background: #BDD4DE;
     padding: 5px;
+    text-align: center;
 }
 
 
+#list {
+	height: 200px;
+	width: 100px; 
+}
+
+#submit {
+    height: 200px;
+    width: 100px;
+    float: left;
+}
 /*:enabled {
     padding: 10px;
 }*/
