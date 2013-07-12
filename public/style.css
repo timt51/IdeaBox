@@ -1,3 +1,18 @@
 body {
-	background-color: #BDD4DE;
+	background-color: #85AFC1;
 }
+
+h1 {
+    background: #BDD4DE;
+    padding: 10px;
+}
+
+form {
+    background: #BDD4DE;
+    padding: 5px;
+}
+
+
+/*:enabled {
+    padding: 10px;
+}*/
