@@ -17,12 +17,13 @@
     <h3>Existing Ideas</h3>
       <div id = "list">
         <ul>
-          <% ideas.each_with_index do |idea, index| %>
+          <% ideas.each_with_index do |idea, id| %>
             <li>
               <%= idea.title %><br/>
               <%= idea.description %>
+              <a href="/<%= id %>/edit">Edit</a>
               <div id = "submit">
-                <form action='/<%= index %>' method='POST'>
+                <form action='/<%= id %>' method='POST'>
                   <input type="hidden" name="_method" value="DELETE">
                   <input type='submit' value="delete"/>
                 </form>
