@@ -14,16 +14,17 @@ h1 + form {
     text-align: center;
 }
 
-
+h3 {
+    text-align: center;
+}
 #list {
-	height: 200px;
-	width: 100px; 
+	width: 300px; 
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #submit {
-    height: 200px;
-    width: 100px;
-    float: left;
+    padding-left: 300px;
 }
 /*:enabled {
     padding: 10px;
