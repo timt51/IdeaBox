@@ -3,9 +3,6 @@ require 'yaml'
 require 'yaml/store'
 
 class IdeaBoxApp < Sinatra::Base
-	# configure development do
-	# 	register Sinatra::reloader
-	# end
   set :method_override, true
 
   get '/' do
