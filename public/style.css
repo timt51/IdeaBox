@@ -26,15 +26,15 @@ h3 {
     text-align: center;
 }
 #list {
-	width: 300px; 
+	width: 50%; 
 	margin-right: auto;
 	margin-left: auto;
 }
 
 #submit {
-    padding-left: 300px;
+    padding-left: 110%;
 }
 
 a {
-    padding-left: 300px;
+    padding-left: 110%;
 }
